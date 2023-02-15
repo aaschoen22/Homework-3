@@ -9,3 +9,6 @@ How I Organize Work:
 1) I color code everything, including colored pens for note taking
 2) I use the tasks for Canvas extension to track assignment due each week
 3) I plan out my weekly schedule on my computer calendar
+
+Summary of Changes:
+I answered the four questions given on the slides. 
