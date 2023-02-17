@@ -1,0 +1,46 @@
+---
+title: 'Homework 3'
+author: "Allie Schoen"
+date: "2/10/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Team Members:
+Myself- got permission from professor due to issues with group members communicating
+Successful pull requests = 2
+Pull requests accepted = 2
+Github Repository I requested a change: 
+Github Repository from which I accepted: 
+
+
+3 tips of how to make working with git/github easier: 
+
+1) Clearly label repositories (date them, don't reuse names, etc.)
+2) Delete/clear out repositories you don't need anymore
+3) Take time to learn the github terminology and know the difference between processes
+
+2. Gapminder Data Plot 
+```{r}
+data <- read.csv("gapminder-5060.csv")
+library(ggplot2)
+country.subset= c("United States", "Canada", "Australia")
+data2 = data[data$country %in% country.subset,]
+ggplot(data= data2, aes(x= lifeExp, y= gdpPercap)) + 
+geom_point(aes(color = country))
+```
+3. Data science is the analysis of data to make informed decisions. Data science addresses and identifies problems for various industries. 
+  Components of data science include:
+  1. machine learning
+  2. coding
+  3. graphical representation
+  4. data cleaning 
+  5. mathematics
+  Along with many other forms of statistical analysis. 
+Data science is a broad field of study with applications in many businesses and other majors. The study of data science focuses on transforming data files into useful models to summarize and analyze information. In data science 201, we focused on using excel and python to subset, summarize and visually display data. In 202, we moved on to using R/RStudio to conduct a similar analysis. 
+![Venn Diagram of Data Science](DSHW.png)
+The image above illustrates the intersections of data science with other relevant fields. The precise definition of data science is unknown because of all the areas of study that contribute to its processes. An example of a data science project I've completed was an analysis of MLB data to predict current player salaries. Using information from the 1960s allowed us to program a machine learning program that would estimate a player's salary based on other baseball statistics like hits, errors, etc. 
+  
