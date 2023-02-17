@@ -11,10 +11,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Team Members:
 Myself- got permission from professor due to issues with group members communicating
-Successful pull requests = 2
-Pull requests accepted = 2
-Github Repository I requested a change: 
-Github Repository from which I accepted: 
+Successful pull requests = 1
+Pull requests accepted = 1
+Github Repository I requested a change: <https://github.com/aaschoen24/Homework3>
+Github Repository from which I accepted: <https://github.com/aaschoen22/Homework3>
 
 
 3 tips of how to make working with git/github easier: 
